@@ -1,44 +1,31 @@
+
+def num_check(question, type):
+
+    if type == int:
+        error_type = "Please enter a number that is more than zero"
+    else:
+        error_type = "Please enter an integer that is larger than zero"
+
+    error = "Please enter {} that is more than zero \n".format(error_type, type)
+
+    valid = False
+    while not valid:
+       try:
+           response = type(input(question))
+           if response <=0:
+               print(error)
+           else:
+               return response
+       except ValueError:
+           print(error)
+
+
 # Rectangle
 print("***** Rectangle *****")
-b = float(input("Base:"))
-h = float(input("Height:"))
+b = num_check("Base: ", int)
+h = float(int("Height: ", int))
 Perimeter = 2 * (b + h)
 Area = b*h
 print("Perimeter of rectangle =", Perimeter)
 print("Area of a rectangle = ", Area)
-
-
-def num_checker(question, error_msg, num_ok):
-    error = error_msg
-
-    valid = False
-    while not valid:
-        response = input(question)
-        has_errors = ""
-
-        if num_ok != "yes":
-
-            for letter in response:
-                if letter.isdigit():
-                 has_errors = "yes"
-                 break
-
-        if response == "":
-            print(error)
-            continue
-        elif has_errors != "":
-            print(error)
-            continue
-        else:
-            return response
-
-
-# #Main routine goes here
-
-source = num_checker("What is the recipe name?",
-                   "Please enter an integer more than zero",
-                   "yes")
-
-
-
 
