@@ -19,16 +19,10 @@ def num_check(question, type):
        except ValueError:
            print(error)
 
-# Triangle
-print("***** Triangle *****")
-# Ask user for sides for perimeter
-s1 = num_check("Side 1: ", int)
-s2 = num_check("Side 2:", int)
-s3 = num_check("Side 3:", int)
-perimeter = s1+s2+s3
-print("Perimeter of triangle =", perimeter)
-#Ask user for base and height
-b = num_check("Base: ", int)
-h= num_check("Height: ", int)
-area = b * h
-print("Area of a triangle = ", area)
+import math
+print("***** Circle *****")
+r = num_check("Radius: ", int)
+area = math.pi * (r * r)
+perimeter = 2 * math.pi * r
+print("Perimeter of circle =", perimeter)
+print("Area of a circle = ", area)

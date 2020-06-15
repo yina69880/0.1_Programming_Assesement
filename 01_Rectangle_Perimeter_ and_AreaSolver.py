@@ -2,9 +2,9 @@
 def num_check(question, type):
 
     if type == int:
-        error_type = "Please enter a number that is more than zero"
+        error_type = "a number"
     else:
-        error_type = "Please enter an integer that is larger than zero"
+        error_type = "an integer"
 
     error = "Please enter {} that is more than zero \n".format(error_type, type)
 
@@ -16,6 +16,7 @@ def num_check(question, type):
                print(error)
            else:
                return response
+
        except ValueError:
            print(error)
 
@@ -23,7 +24,7 @@ def num_check(question, type):
 # Rectangle
 print("***** Rectangle *****")
 b = num_check("Base: ", int)
-h = float(int("Height: ", int))
+h = num_check("Height: ", int)
 Perimeter = 2 * (b + h)
 Area = b*h
 print("Perimeter of rectangle =", Perimeter)
