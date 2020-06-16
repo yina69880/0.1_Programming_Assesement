@@ -19,10 +19,13 @@ def num_check(question, type):
        except ValueError:
            print(error)
 
-import math
-print("***** Circle *****")
-r = num_check("Radius: ", int)
-area = math.pi * (r * r)
-circumference = 2 * math.pi * r
-print("Circumference of circle = ", circumference)
-print("Area of a circle = ", area)
+
+print("***** Parallelogram *****")
+b = num_check("Base: ", float)
+s1 = num_check("Side 1", float)
+perimeter = 2 * (b * s1)
+print("Perimeter of a Parallelogram = ", perimeter)
+b = num_check("Base: ", float)
+h = num_check("Height: ", float)
+area = b * h
+print("Area of a Parallelogram = ", area)
