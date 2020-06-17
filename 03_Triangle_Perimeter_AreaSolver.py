@@ -31,4 +31,4 @@ print("Perimeter of triangle =", perimeter)
 b = num_check("Base: ", float)
 h= num_check("Height: ", float)
 area = b * h
-print("Area of a triangle = ", float)
+print("Area of a triangle = ", area)

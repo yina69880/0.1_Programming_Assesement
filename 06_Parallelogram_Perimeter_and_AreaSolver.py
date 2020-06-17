@@ -22,7 +22,7 @@ def num_check(question, type):
 
 print("***** Parallelogram *****")
 b = num_check("Base: ", float)
-s1 = num_check("Side 1", float)
+s1 = num_check("Side 1: ", float)
 perimeter = 2 * (b * s1)
 print("Perimeter of a Parallelogram = ", perimeter)
 b = num_check("Base: ", float)

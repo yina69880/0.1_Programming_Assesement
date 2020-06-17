@@ -1,27 +1,41 @@
+import math
+
 
 def num_check(question, type):
 
     if type == float:
         error_type = "a number"
-    else:
-        error_type = "an integer"
 
     error = "Please enter {} that is more than zero \n".format(error_type, type)
 
     valid = False
     while not valid:
-       try:
-           response = type(input(question))
-           if response <=0:
-               print(error)
-           else:
-               return response
+        response = input(question)
 
-       except ValueError:
-           print(error)
-import math
+        if response == "":
+            print(error)
+            continue
+        try:
+            response = eval(response)
+            response = float(response)
+
+            if response <= 0:
+                print(error)
+            else:
+                return response
+
+        except ValueError:
+            print(error)
+
+        except SyntaxError:
+            print(error)
+
+        except NameError:
+            print(error)
+
+
 # Ask user for what shape?
-what_shape = num_check('''What shape do you want to calculate the area and perimeter of?
+what_shape = input('''What shape do you want to calculate the area and perimeter of?
   1. Calculate Cirlce
   2. Calculate Square
   3. Calculate Rectangle
@@ -29,7 +43,9 @@ what_shape = num_check('''What shape do you want to calculate the area and perim
   5. Calculate Trapezium
   6. Calculate Parallelogram
   7. Calculate Rhombus
-  Please enter the number associated with the shape: ''', float).strip().lower()
+  Please enter the number associated with the shape: ''').strip().lower()
+
+
 
 if what_shape in ['1', '1.', 'Cirlce', 'C', 'c', 'circle', 'CIRCLE']:
         print("***** Circle *****")
