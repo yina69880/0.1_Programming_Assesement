@@ -6,7 +6,7 @@ def num_check(question, type):
     if type == float:
         error_type = "a number"
 
-    error = "Please enter {} that is more than zero \n".format(error_type, type)
+    error = "Please enter {} that is more than zero\n".format(error_type, type)
 
     valid = False
     while not valid:
@@ -33,9 +33,16 @@ def num_check(question, type):
         except NameError:
             print(error)
 
-
+# Ask user for what measurements
+what_measurement = input('''
+Which of these would you like to do?
+1. Calculate area
+2. Calculate perimeter / circumference
+Please enter the number associated with the shape: ''')
+if what_measurement in ['1', '1.', 'area', 'Area', 'AREA']:
+  measurement_name = 'Area'
 # Ask user for what shape?
-what_shape = input('''What shape do you want to calculate the area and perimeter of?
+what_shape = input('''What shape do you want to calculate the area and of?
   1. Calculate Cirlce
   2. Calculate Square
   3. Calculate Rectangle
@@ -43,7 +50,8 @@ what_shape = input('''What shape do you want to calculate the area and perimeter
   5. Calculate Trapezium
   6. Calculate Parallelogram
   7. Calculate Rhombus
-  Please enter the number associated with the shape: ''').strip().lower()
+  Please enter the number associated with the shape:
+  ''')
 
 
 
@@ -55,7 +63,7 @@ if what_shape in ['1', '1.', 'Cirlce', 'C', 'c', 'circle', 'CIRCLE']:
         print("Circumference of circle = ", circumference)
         print("Area of a circle = ", area)
 
-elif what_shape in ['2', '2.', 'Square', 'S', 's', 'square', 'SQUARE']:
+if what_shape in ['2', '2.', 'Square', 'S', 's', 'square', 'SQUARE']:
         print("***** Square *****")
         b = num_check("Base:", float)
         perimeter = b * 4
@@ -63,7 +71,7 @@ elif what_shape in ['2', '2.', 'Square', 'S', 's', 'square', 'SQUARE']:
         print("Perimeter of the Square = ", perimeter)
         print("Area of the Square = ", area)
 
-elif what_shape in ['3.', '3', 'Rectangle', 'R', 'r', 'rectangle', 'RECTANGLE']:
+if what_shape in ['3.', '3', 'Rectangle', 'R', 'r', 'rectangle', 'RECTANGLE']:
         print("***** Rectangle *****")
         b = num_check("Base: ", float)
         h = num_check("Height: ", float)
@@ -72,7 +80,7 @@ elif what_shape in ['3.', '3', 'Rectangle', 'R', 'r', 'rectangle', 'RECTANGLE']:
         print("Perimeter of rectangle = ", perimeter)
         print("Area of a rectangle = ", area)
 
-elif what_shape in ['4.', '4', 'Triangle', 'triangle', 'T', 't', 'TRIANGLE' ]:
+if what_shape in ['4.', '4', 'Triangle', 'triangle', 'T', 't', 'TRIANGLE' ]:
         print("***** Triangle *****")
         s1 = num_check("Side 1: ", float)
         s2 = num_check("Side 2:", float)
@@ -84,7 +92,7 @@ elif what_shape in ['4.', '4', 'Triangle', 'triangle', 'T', 't', 'TRIANGLE' ]:
         area = b * h
         print("Area of a triangle = ", area)
 
-elif what_shape in ['5', '5.', 'Trapezium', 'trapezium', 'T', 't', 'TRAPEZIUM']:
+if what_shape in ['5', '5.', 'Trapezium', 'trapezium', 'T', 't', 'TRAPEZIUM']:
         print("***** Trapezium *****")
         a = num_check("Top length: ", float)
         b = num_check("Bottom length: ", float)
@@ -98,7 +106,7 @@ elif what_shape in ['5', '5.', 'Trapezium', 'trapezium', 'T', 't', 'TRAPEZIUM']:
         area = ((a+b)/2)*h
         print("Area of a Trapezium = ", area)
 
-elif what_shape in ['6', '6.', 'Parallelogram', 'parallelogram', 'P', 'p', 'PARALLELOGRAM']:
+if what_shape in ['6', '6.', 'Parallelogram', 'parallelogram', 'P', 'p', 'PARALLELOGRAM']:
         print("***** Parallelogram *****")
         b = num_check("Base: ", float)
         s1 = num_check("Side 1", float)
@@ -109,7 +117,7 @@ elif what_shape in ['6', '6.', 'Parallelogram', 'parallelogram', 'P', 'p', 'PARA
         area = b * h
         print("Area of a Parallelogram = ", area)
 
-elif what_shape in ['7', '7.', 'Rhombus', 'rhombus', 'R', 'r', 'RHOMBUS']:
+if what_shape in ['7', '7.', 'Rhombus', 'rhombus', 'R', 'r', 'RHOMBUS']:
         print("***** Rhombus *****")
         s1 = num_check("Side: ", float)
         perimeter = 4 * s1
@@ -118,6 +126,4 @@ elif what_shape in ['7', '7.', 'Rhombus', 'rhombus', 'R', 'r', 'RHOMBUS']:
         D2 = num_check("Diagonal 2: ", float)
         area = (D1 * D2)/2
         print("Area of a Rhombus = ", area)
-
-
 
