@@ -1,5 +1,10 @@
-horrible_num = 1.5631265312
+distances = {"mile": 1609.34,
+              "km": 1000,
+              "m": 1,
+              "cm": 0.01,
+              "mm": 0.001
+              }
+info = input().split(" ")
 
-
-print("{}".format(horrible_num))
-print("{:.2f}".format(horrible_num))
+if info[1] == info [3]: print("{:.2f}".format(float(info[0])))
+else: print("{:.2f}".format(float(info[0]) * dict[info[1]] / dict[info[3]]))

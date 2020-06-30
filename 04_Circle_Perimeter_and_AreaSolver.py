@@ -1,6 +1,6 @@
 def num_check(question, type):
 
-    if type == int:
+    if type == float:
         error_type = "a number"
     else:
         error_type = "an integer"
@@ -21,7 +21,7 @@ def num_check(question, type):
 
 import math
 print("***** Circle *****")
-r = num_check("Radius: ", int)
+r = num_check("Radius: ", float)
 area = math.pi * (r * r)
 circumference = 2 * math.pi * r
 print("Circumference of circle = ", circumference)

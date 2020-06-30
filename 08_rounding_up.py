@@ -1,9 +1,4 @@
-import math
-
-# rounding function
-def round_up(amount, round_to):
-    # rounds amount UP to the specified amount (round_to)
-    return int(round_to * round(math.ceil(amount) / round_to))
+round_up = 1.516656514656
 
 
 print("{}".format(round_up))

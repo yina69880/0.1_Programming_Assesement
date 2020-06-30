@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="08_rounding_up.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_rounding_up.py">
+      <file leaf-file-name="09_units.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09_units.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -33,21 +33,23 @@
       <file leaf-file-name="010_Final_Build.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/010_Final_Build.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="111" column="66" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
+            <state relative-caret-position="476">
+              <caret line="128" column="77" selection-start-line="128" selection-start-column="77" selection-end-line="128" selection-end-column="77" />
               <folding>
-                <element signature="e#58#356#0" expanded="false" />
-                <element signature="e#102#356#0" expanded="false" />
-                <element signature="e#180#298#0" expanded="false" />
-                <element signature="e#394#1032#0" expanded="false" />
-                <element signature="e#573#1032#0" expanded="false" />
-                <element signature="e#1045#1149#0" expanded="false" />
-                <element signature="e#1205#1427#0" expanded="false" />
-                <element signature="e#1481#1758#0" expanded="false" />
-                <element signature="e#1803#2049#0" expanded="false" />
-                <element signature="e#2097#2394#0" expanded="false" />
-                <element signature="e#2442#2865#0" expanded="false" />
-                <element signature="e#2917#3310#0" expanded="false" />
+                <element signature="e#118#372#0" expanded="false" />
+                <element signature="e#196#314#0" expanded="false" />
+                <element signature="e#1522#1820#0" expanded="false" />
+                <element signature="e#1566#1820#0" expanded="false" />
+                <element signature="e#1644#1762#0" expanded="false" />
+                <element signature="e#2008#2307#0" expanded="false" />
+                <element signature="e#2352#2620#0" expanded="false" />
+                <element signature="e#2668#2987#0" expanded="false" />
+                <element signature="e#3035#3480#0" expanded="false" />
+                <element signature="e#3532#3947#0" expanded="false" />
+                <marker date="1593476208949" expanded="false" signature="69:372" ph="..." />
+                <marker date="1593476208949" expanded="false" signature="421:1065" ph="..." />
+                <marker date="1593476208949" expanded="false" signature="597:1065" ph="..." />
+                <marker date="1593476208949" expanded="false" signature="1095:1190" ph="..." />
               </folding>
             </state>
           </provider>
@@ -56,8 +58,8 @@
       <file leaf-file-name="00_SandPit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_SandPit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -86,8 +88,8 @@
       <file leaf-file-name="04_Circle_Perimeter_and_AreaSolver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_Circle_Perimeter_and_AreaSolver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="459">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -135,12 +137,13 @@
         <option value="$PROJECT_DIR$/05_Trapezium_Perimeter_and_AreaSolver.py" />
         <option value="$PROJECT_DIR$/07_Rhombus_Perimeter_and_AreaSolver.py" />
         <option value="$PROJECT_DIR$/08_Ask_User_for_Shape.py" />
-        <option value="$PROJECT_DIR$/04_Circle_Perimeter_and_AreaSolver.py" />
         <option value="$PROJECT_DIR$/08_Ask_User_for_PerimeterOrArea.py" />
         <option value="$PROJECT_DIR$/06_Parallelogram_Perimeter_and_AreaSolver.py" />
         <option value="$PROJECT_DIR$/03_Triangle_Perimeter_AreaSolver.py" />
-        <option value="$PROJECT_DIR$/00_SandPit.py" />
+        <option value="$PROJECT_DIR$/04_Circle_Perimeter_and_AreaSolver.py" />
         <option value="$PROJECT_DIR$/08_rounding_up.py" />
+        <option value="$PROJECT_DIR$/00_SandPit.py" />
+        <option value="$PROJECT_DIR$/09_units.py" />
         <option value="$PROJECT_DIR$/010_Final_Build.py" />
       </list>
     </option>
@@ -175,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -204,7 +208,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +218,7 @@
       <recent name="H:\Documents\COM201\01_Programming\0.1_Programming_Assesement" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.00_SandPit">
+  <component name="RunManager" selected="Python.010_Final_Build">
     <configuration default="false" name="04_Circle_Perimeter_and_AreaSolver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -447,8 +450,8 @@
         <item index="0" class="java.lang.String" itemvalue="Python.010_Final_Build" />
         <item index="1" class="java.lang.String" itemvalue="Python.00_SandPit" />
         <item index="2" class="java.lang.String" itemvalue="Python.08_rounding_up" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03_Triangle_Perimeter_AreaSolver" />
-        <item index="4" class="java.lang.String" itemvalue="Python.04_Circle_Perimeter_and_AreaSolver" />
+        <item index="3" class="java.lang.String" itemvalue="Python.04_Circle_Perimeter_and_AreaSolver" />
+        <item index="4" class="java.lang.String" itemvalue="Python.03_Triangle_Perimeter_AreaSolver" />
       </list>
     </recent_temporary>
   </component>
@@ -506,14 +509,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04_Circle_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_Triangle_Perimeter_AreaSolver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -535,18 +530,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#58#356#0" expanded="false" />
-            <element signature="e#102#356#0" expanded="false" />
-            <element signature="e#180#298#0" expanded="false" />
-            <element signature="e#394#1032#0" expanded="false" />
-            <element signature="e#573#1032#0" expanded="false" />
-            <element signature="e#1045#1149#0" expanded="false" />
-            <element signature="e#1205#1427#0" expanded="false" />
-            <element signature="e#1481#1758#0" expanded="false" />
-            <element signature="e#1803#2049#0" expanded="false" />
-            <element signature="e#2097#2394#0" expanded="false" />
-            <element signature="e#2442#2865#0" expanded="false" />
-            <element signature="e#2917#3310#0" expanded="false" />
+            <element signature="e#118#372#0" expanded="false" />
+            <element signature="e#196#314#0" expanded="false" />
+            <element signature="e#1522#1820#0" expanded="false" />
+            <element signature="e#1566#1820#0" expanded="false" />
+            <element signature="e#1644#1762#0" expanded="false" />
+            <element signature="e#2008#2307#0" expanded="false" />
+            <element signature="e#2352#2620#0" expanded="false" />
+            <element signature="e#2668#2987#0" expanded="false" />
+            <element signature="e#3035#3480#0" expanded="false" />
+            <element signature="e#3532#3947#0" expanded="false" />
+            <marker date="1593476208949" expanded="false" signature="69:372" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="421:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="597:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="1095:1190" ph="..." />
           </folding>
         </state>
       </provider>
@@ -559,14 +556,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_Rhombus_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Rhombus_Perimeter_and_AreaSolver.py" />
     <entry file="file://$PROJECT_DIR$/05_Parallelogram_Perimeter_and_AreaSolver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -575,14 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_Trapezium_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Trapezium_Perimeter_and_AreaSolver.py" />
     <entry file="file://$PROJECT_DIR$/07_NumberChecker_and_NotBlank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -620,30 +603,25 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#58#356#0" expanded="false" />
-            <element signature="e#102#356#0" expanded="false" />
-            <element signature="e#180#298#0" expanded="false" />
-            <element signature="e#394#1032#0" expanded="false" />
-            <element signature="e#573#1032#0" expanded="false" />
-            <element signature="e#1045#1149#0" expanded="false" />
-            <element signature="e#1205#1427#0" expanded="false" />
-            <element signature="e#1481#1758#0" expanded="false" />
-            <element signature="e#1803#2049#0" expanded="false" />
-            <element signature="e#2097#2394#0" expanded="false" />
-            <element signature="e#2442#2865#0" expanded="false" />
-            <element signature="e#2917#3310#0" expanded="false" />
+            <element signature="e#118#372#0" expanded="false" />
+            <element signature="e#196#314#0" expanded="false" />
+            <element signature="e#1522#1820#0" expanded="false" />
+            <element signature="e#1566#1820#0" expanded="false" />
+            <element signature="e#1644#1762#0" expanded="false" />
+            <element signature="e#2008#2307#0" expanded="false" />
+            <element signature="e#2352#2620#0" expanded="false" />
+            <element signature="e#2668#2987#0" expanded="false" />
+            <element signature="e#3035#3480#0" expanded="false" />
+            <element signature="e#3532#3947#0" expanded="false" />
+            <marker date="1593476208949" expanded="false" signature="69:372" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="421:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="597:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="1095:1190" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_Rhombus_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Rhombus_Perimeter_and_AreaSolver.py" />
     <entry file="file://$PROJECT_DIR$/05_Parallelogram_Perimeter_and_AreaSolver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -652,14 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_Trapezium_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Trapezium_Perimeter_and_AreaSolver.py" />
     <entry file="file://$PROJECT_DIR$/07_NumberChecker_and_NotBlank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -689,18 +660,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#58#356#0" expanded="false" />
-            <element signature="e#102#356#0" expanded="false" />
-            <element signature="e#180#298#0" expanded="false" />
-            <element signature="e#394#1032#0" expanded="false" />
-            <element signature="e#573#1032#0" expanded="false" />
-            <element signature="e#1045#1149#0" expanded="false" />
-            <element signature="e#1205#1427#0" expanded="false" />
-            <element signature="e#1481#1758#0" expanded="false" />
-            <element signature="e#1803#2049#0" expanded="false" />
-            <element signature="e#2097#2394#0" expanded="false" />
-            <element signature="e#2442#2865#0" expanded="false" />
-            <element signature="e#2917#3310#0" expanded="false" />
+            <element signature="e#118#372#0" expanded="false" />
+            <element signature="e#196#314#0" expanded="false" />
+            <element signature="e#1522#1820#0" expanded="false" />
+            <element signature="e#1566#1820#0" expanded="false" />
+            <element signature="e#1644#1762#0" expanded="false" />
+            <element signature="e#2008#2307#0" expanded="false" />
+            <element signature="e#2352#2620#0" expanded="false" />
+            <element signature="e#2668#2987#0" expanded="false" />
+            <element signature="e#3035#3480#0" expanded="false" />
+            <element signature="e#3532#3947#0" expanded="false" />
+            <marker date="1593476208949" expanded="false" signature="69:372" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="421:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="597:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="1095:1190" ph="..." />
           </folding>
         </state>
       </provider>
@@ -861,14 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_Rhombus_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/07_Rhombus_Perimeter_and_AreaSolver.py" />
     <entry file="file://$PROJECT_DIR$/05_Parallelogram_Perimeter_and_AreaSolver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -877,22 +843,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_Trapezium_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Circle_Perimeter_and_AreaSolver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Trapezium_Perimeter_and_AreaSolver.py" />
     <entry file="file://$PROJECT_DIR$/03_Triangle_Perimeter_AreaSolver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -909,39 +860,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_rounding_up.py">
+    <entry file="file://$PROJECT_DIR$/04_Circle_Perimeter_and_AreaSolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/00_SandPit.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_rounding_up.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_units.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/010_Final_Build.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="111" column="66" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
+        <state relative-caret-position="476">
+          <caret line="128" column="77" selection-start-line="128" selection-start-column="77" selection-end-line="128" selection-end-column="77" />
           <folding>
-            <element signature="e#58#356#0" expanded="false" />
-            <element signature="e#102#356#0" expanded="false" />
-            <element signature="e#180#298#0" expanded="false" />
-            <element signature="e#394#1032#0" expanded="false" />
-            <element signature="e#573#1032#0" expanded="false" />
-            <element signature="e#1045#1149#0" expanded="false" />
-            <element signature="e#1205#1427#0" expanded="false" />
-            <element signature="e#1481#1758#0" expanded="false" />
-            <element signature="e#1803#2049#0" expanded="false" />
-            <element signature="e#2097#2394#0" expanded="false" />
-            <element signature="e#2442#2865#0" expanded="false" />
-            <element signature="e#2917#3310#0" expanded="false" />
+            <element signature="e#118#372#0" expanded="false" />
+            <element signature="e#196#314#0" expanded="false" />
+            <element signature="e#1522#1820#0" expanded="false" />
+            <element signature="e#1566#1820#0" expanded="false" />
+            <element signature="e#1644#1762#0" expanded="false" />
+            <element signature="e#2008#2307#0" expanded="false" />
+            <element signature="e#2352#2620#0" expanded="false" />
+            <element signature="e#2668#2987#0" expanded="false" />
+            <element signature="e#3035#3480#0" expanded="false" />
+            <element signature="e#3532#3947#0" expanded="false" />
+            <marker date="1593476208949" expanded="false" signature="69:372" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="421:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="597:1065" ph="..." />
+            <marker date="1593476208949" expanded="false" signature="1095:1190" ph="..." />
           </folding>
         </state>
       </provider>
