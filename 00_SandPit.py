@@ -1,10 +1,11 @@
-distances = {"mile": 1609.34,
-              "km": 1000,
-              "m": 1,
-              "cm": 0.01,
-              "mm": 0.001
-              }
-info = input().split(" ")
+import random
+many_words = {'addictive', 'ambitious', 'amusing', 'appealing', 'artistic', 'astonishing', 'award-winning', 'awe-inspiring'}
+short_list = []
 
-if info[1] == info [3]: print("{:.2f}".format(float(info[0])))
-else: print("{:.2f}".format(float(info[0]) * dict[info[1]] / dict[info[3]]))
+while len(short_list)<5:
+    word = random.choice(many_words)
+
+    if word not in short_list:
+        short_list.append(word)
+
+print(short_list)

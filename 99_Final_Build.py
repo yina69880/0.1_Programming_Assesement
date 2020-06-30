@@ -76,7 +76,7 @@ def string_checker(question, to_check):
         print("Apologies, that is not a valid response")
 units = ['km', 'm', 'cm', 'mm']
 what_unit = string_checker("What units do you want to use: km, m, cm, mm? ", units)
-
+square_units =
 
 
 # if shapes = print shapes
