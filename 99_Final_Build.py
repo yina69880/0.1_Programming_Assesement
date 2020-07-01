@@ -76,7 +76,6 @@ def string_checker(question, to_check):
         print("Apologies, that is not a valid response")
 units = ['km', 'm', 'cm', 'mm']
 what_unit = string_checker("What units do you want to use: km, m, cm, mm? ", units)
-square_units =
 
 
 # if shapes = print shapes
@@ -86,7 +85,7 @@ if what_shape in ['1','circle']:
         circumference = 2 * math.pi * r
         area = math.pi * (r * r)
         print("Circumference of circle = ", "{:.2f}".format(circumference), what_unit)
-        print("Area of a circle = ", "{:.2f}".format(area), what_unit)
+        print("Area of a circle = ", "{:.2f}".format(area), what_unit, "^2")
 
 elif what_shape in ['2','square']:
         print("***** Square *****")
@@ -94,7 +93,7 @@ elif what_shape in ['2','square']:
         perimeter = b * 4
         area = b * b
         print("Perimeter of the Square = ", "{:.2f}".format(perimeter), what_unit)
-        print("Area of the Square = ", "{:.2f}".format(area), what_unit)
+        print("Area of the Square = ", "{:.2f}".format(area), "^2")
 
 elif what_shape in ['3','rectangle']:
         print("***** Rectangle *****")
@@ -103,7 +102,7 @@ elif what_shape in ['3','rectangle']:
         perimeter = 2 * (b + h)
         area = b * h
         print("Perimeter of rectangle = ", "{:.2f}".format(perimeter), what_unit)
-        print("Area of a rectangle = ", "{:.2f}".format(area), what_unit)
+        print("Area of a rectangle = ", "{:.2f}".format(area), "^2")
 
 elif what_shape in ['4','triangle' ]:
         print("***** Triangle *****")
@@ -115,7 +114,7 @@ elif what_shape in ['4','triangle' ]:
         b = num_check("Base: ", float)
         h = num_check("Height: ", float)
         area = (b * h)/2
-        print("Area of a triangle = ", "{:.2f}".format(area), what_unit)
+        print("Area of a triangle = ", "{:.2f}".format(area), "^2")
 
 elif what_shape in ['5','parallelogram']:
         print("***** Parallelogram *****")
@@ -126,6 +125,4 @@ elif what_shape in ['5','parallelogram']:
         b = num_check("Base: ", float)
         h = num_check("Height: ", float)
         area = b * h
-        print("Area of a Parallelogram = ", "{:.2f}".format(area), what_unit)
-
-
+        print("Area of a Parallelogram = ", "{:.2f}".format(area), what_unit, "^2")
