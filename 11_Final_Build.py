@@ -42,8 +42,6 @@ while keep_going == "":
             except SyntaxError:
                 print(error)
 
-            except NameError:
-                print(error)
 
 
     # List of shapes
